@@ -19,7 +19,7 @@ FreeRTOS is developed by
 | Number | Excercise | Status |
 | --- | --- | --- |
 | 1. | Hello World | Completed |
-| 2. | GPIO Interrupt | **In Progress...** |
+| 2. | GPIO Interrupt | Completed |
 | 3. | Button UART | **In Progress...** |
 | 4. | FreeRTOS - Queues | **In Progress...** |
 
