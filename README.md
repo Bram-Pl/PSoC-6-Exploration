@@ -18,9 +18,9 @@ FreeRTOS is currently developed by [AWS](https://aws.amazon.com/) or better know
 ## Excercise Hyperlinks
 | Number | Excercise | Status |
 | --- | --- | --- |
-| 1. | [Hello World](PSoC-6-Exploration/1_PSoC6_HelloWorld) | Completed |
-| 2. | [GPIO Interrupt](PSoC-6-Exploration/2_PSoC6_GPIOInterrupt) | Completed |
-| 3. | [Button UART](PSoC-6-Exploration/3_PSoC6_ButtonUART) | Completed |
+| 1. | [Hello World](https://github.com/Bram-Pl/PSoC-6-Exploration/tree/main/1_PSoC6_HelloWorld) | Completed |
+| 2. | [GPIO Interrupt](https://github.com/Bram-Pl/PSoC-6-Exploration/tree/main/2_PSoC6_GPIOInterrupt) | Completed |
+| 3. | [Button UART](https://github.com/Bram-Pl/PSoC-6-Exploration/tree/main/ButtonUART) | Completed |
 | 4. | FreeRTOS - Queues | **In Progress...** |
 
 ## License
