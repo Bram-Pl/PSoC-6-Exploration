@@ -1,0 +1,143 @@
+Checking if remote manifest is accessible...
+Getting manifests from remote server...
+
+Processing super-manifest https://github.com/cypresssemiconductorco/mtb-super-manifest/raw/v2.X/mtb-super-manifest-fv2.xml...
+Successfully acquired the information.
+
+Summary: 
+
+BSP: CY8CPROTO-062-4343W
+Template Application(s): GPIO Interrupt
+Application(s) Root Path: C:/devworks/PSoC-6-Exploration/3_PSoC6_ButtonUART
+
+Press "Create" to create the selected application(s).
+
+Collecting application data...
+
+
+Info: The following entered on the command line will create the exact same project as that created with the GUI tool:
+C:/Infineon/Tools/ModusToolbox/tools_2.3/project-creator/project-creator-cli.exe --board-id CY8CPROTO-062-4343W --board-uri https://github.com/cypresssemiconductorco/TARGET_CY8CPROTO-062-4343W --board-commit latest-v2.X --app-id mtb-example-psoc6-gpio-interrupt --app-uri https://github.com/cypresssemiconductorco/mtb-example-psoc6-gpio-interrupt --app-commit latest-v2.X --cypress-tools C:/Infineon/Tools/ModusToolbox/tools_2.3 --target-dir C:/devworks/PSoC-6-Exploration/3_PSoC6_ButtonUART --user-app-name 3_PSoC6_ButtonUART --output-for-machine --use-modus-shell
+
+
+==============================================================================
+= Cloning 'mtb-example-psoc6-gpio-interrupt' =
+==============================================================================
+Cloning https://github.com/cypresssemiconductorco/mtb-example-psoc6-gpio-interrupt into C:/devworks/PSoC-6-Exploration/3_PSoC6_ButtonUART directory...
+env git clone --progress --origin cypress https://github.com/cypresssemiconductorco/mtb-example-psoc6-gpio-interrupt 3_PSoC6_ButtonUART
+Cloning into '3_PSoC6_ButtonUART'...
+remote: Enumerating objects: 36, done.        
+remote: Counting objects: 100% (36/36), done.        
+remote: Compressing objects: 100% (25/25), done.        
+remote: Total 36 (delta 10), reused 32 (delta 9), pack-reused 0        
+
+Checking out latest-v2.X...
+env git checkout --progress latest-v2.X
+Note: checking out 'latest-v2.X'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b <new-branch-name>
+
+HEAD is now at b516bb9 Upload mtb-example-psoc6-gpio-interrupt 2.1.0.119
+
+==============================================================================
+= Creating "TARGET_CY8CPROTO-062-4343W.mtb" file(s) =
+==============================================================================
+C:/devworks/PSoC-6-Exploration/3_PSoC6_ButtonUART/3_PSoC6_ButtonUART/deps/TARGET_CY8CPROTO-062-4343W.mtb was updated
+
+==============================================================================
+= Updating Makefile for "3_PSoC6_ButtonUART" =
+==============================================================================
+C:/devworks/PSoC-6-Exploration/3_PSoC6_ButtonUART/3_PSoC6_ButtonUART/deps/TARGET_CY8CPROTO-062-4343W.mtb was updated
+C:/devworks/PSoC-6-Exploration/3_PSoC6_ButtonUART/3_PSoC6_ButtonUART/deps/retarget-io.mtb was updated
+
+==============================================================================
+= Getting Dependencies for "3_PSoC6_ButtonUART" =
+==============================================================================
+C:/Infineon/Tools/ModusToolbox/tools_2.3/modus-shell/bin/make.exe getlibs CY_TOOLS_PATHS=C:/Infineon/Tools/ModusToolbox/tools_2.3
+Tools Directory: C:/Infineon/Tools/ModusToolbox/tools_2.3
+
+==============================================================================
+= Importing libraries =
+==============================================================================
+Git is git version 2.17.0, found at /usr/bin/git
+
+Resolving dependencies...
+Checking if remote manifest is accessible...
+Processing super-manifest https://github.com/cypresssemiconductorco/mtb-super-manifest/raw/v2.X/mtb-super-manifest-fv2.xml...
+Successfully acquired the information.
+INFO - Warning: Multiple versions of "core-make" requested. Keeping version "latest-v1.X" and discarding version "release-v1.8.0".
+C:/devworks/PSoC-6-Exploration/3_PSoC6_ButtonUART/3_PSoC6_ButtonUART/libs/capsense.mtb was added
+C:/devworks/PSoC-6-Exploration/3_PSoC6_ButtonUART/3_PSoC6_ButtonUART/libs/core-lib.mtb was added
+C:/devworks/PSoC-6-Exploration/3_PSoC6_ButtonUART/3_PSoC6_ButtonUART/libs/core-make.mtb was added
+C:/devworks/PSoC-6-Exploration/3_PSoC6_ButtonUART/3_PSoC6_ButtonUART/libs/mtb-hal-cat1.mtb was added
+C:/devworks/PSoC-6-Exploration/3_PSoC6_ButtonUART/3_PSoC6_ButtonUART/libs/mtb-pdl-cat1.mtb was added
+C:/devworks/PSoC-6-Exploration/3_PSoC6_ButtonUART/3_PSoC6_ButtonUART/libs/psoc6cm0p.mtb was added
+C:/devworks/PSoC-6-Exploration/3_PSoC6_ButtonUART/3_PSoC6_ButtonUART/libs/recipe-make-cat1a.mtb was added
+Dependencies resolved.
+
+Searching application directory (.mtb)...
+Found 9 .mtb file(s)
+    Processing file "C:/devworks/PSoC-6-Exploration/3_PSoC6_ButtonUART/3_PSoC6_ButtonUART/deps/TARGET_CY8CPROTO-062-4343W.mtb"
+    Processing file "C:/devworks/PSoC-6-Exploration/3_PSoC6_ButtonUART/3_PSoC6_ButtonUART/deps/retarget-io.mtb"
+    Processing file "C:/devworks/PSoC-6-Exploration/3_PSoC6_ButtonUART/3_PSoC6_ButtonUART/libs/capsense.mtb"
+    Processing file "C:/devworks/PSoC-6-Exploration/3_PSoC6_ButtonUART/3_PSoC6_ButtonUART/libs/core-lib.mtb"
+    Processing file "C:/devworks/PSoC-6-Exploration/3_PSoC6_ButtonUART/3_PSoC6_ButtonUART/libs/core-make.mtb"
+    Processing file "C:/devworks/PSoC-6-Exploration/3_PSoC6_ButtonUART/3_PSoC6_ButtonUART/libs/mtb-hal-cat1.mtb"
+    Processing file "C:/devworks/PSoC-6-Exploration/3_PSoC6_ButtonUART/3_PSoC6_ButtonUART/libs/mtb-pdl-cat1.mtb"
+    Processing file "C:/devworks/PSoC-6-Exploration/3_PSoC6_ButtonUART/3_PSoC6_ButtonUART/libs/psoc6cm0p.mtb"
+    Processing file "C:/devworks/PSoC-6-Exploration/3_PSoC6_ButtonUART/3_PSoC6_ButtonUART/libs/recipe-make-cat1a.mtb"
+Libraries processed.
+Created file "C:/devworks/PSoC-6-Exploration/3_PSoC6_ButtonUART/3_PSoC6_ButtonUART/libs/mtb.mk".
+
+
+==============================================================================
+= Import complete =
+==============================================================================
+
+Project "3_PSoC6_ButtonUART" created successfully.
+==============================================================================
+= Export "3_PSoC6_ButtonUART" application to Eclipse IDE for ModusToolbox =
+==============================================================================
+C:/Infineon/Tools/ModusToolbox/tools_2.3/modus-shell/bin/make.exe eclipse CY_IDE_PRJNAME=3_PSoC6_ButtonUART CY_MAKE_IDE=eclipse CY_MAKE_IDE_VERSION=2.3 CY_TOOLS_PATHS=C:/Infineon/Tools/ModusToolbox/tools_2.3
+Tools Directory: C:/Infineon/Tools/ModusToolbox/tools_2.3
+CY8CPROTO-062-4343W.mk: ./libs/TARGET_CY8CPROTO-062-4343W/CY8CPROTO-062-4343W.mk
+
+Prebuild operations complete
+Commencing build operations...
+
+Tools Directory: C:/Infineon/Tools/ModusToolbox/tools_2.3
+CY8CPROTO-062-4343W.mk: ./libs/TARGET_CY8CPROTO-062-4343W/CY8CPROTO-062-4343W.mk
+
+Initializing build: mtb-example-psoc6-gpio-interrupt Debug CY8CPROTO-062-4343W GCC_ARM
+
+Auto-discovery in progress...
+-> Found 191 .c file(s)
+-> Found 46 .S file(s)
+-> Found 22 .s file(s)
+-> Found 0 .cpp file(s)
+-> Found 0 .o file(s)
+-> Found 6 .a file(s)
+-> Found 499 .h file(s)
+-> Found 0 .hpp file(s)
+-> Found 0 resource file(s)
+Applying filters...
+Auto-discovery complete
+
+Constructing build rules...
+Build rules construction complete
+
+==============================================================================
+= Generating IDE files =
+==============================================================================
+
+Generated Eclipse launch config files:  "3_PSoC6_ButtonUART Attach (JLink).launch" "3_PSoC6_ButtonUART Attach (KitProg3_MiniProg4).launch" "3_PSoC6_ButtonUART Debug (JLink).launch" "3_PSoC6_ButtonUART Debug (KitProg3_MiniProg4).launch" "3_PSoC6_ButtonUART Erase (JLink).launch" "3_PSoC6_ButtonUART Erase (KitProg3_MiniProg4).launch" "3_PSoC6_ButtonUART Program (JLink).launch" "3_PSoC6_ButtonUART Program (KitProg3_MiniProg4).launch"
+  
+The project "3_PSoC6_ButtonUART" was successfully exported to Eclipse IDE for ModusToolbox.
+
+Successfully created and exported "3_PSoC6_ButtonUART" application.

@@ -13,14 +13,14 @@ The board itself is FreeRTOS qualified. The FreeRTOS can be used by enabling it 
 
 ```Tools >> Library Manager >> Libraries >> Check FreeRTOS >> 'Update'```
 
-FreeRTOS is developed by 
+FreeRTOS is currently developed by [AWS](https://aws.amazon.com/) or better known as Amazon Web Services.
 
 ## Excercise Hyperlinks
 | Number | Excercise | Status |
 | --- | --- | --- |
-| 1. | Hello World | Completed |
-| 2. | GPIO Interrupt | Completed |
-| 3. | Button UART | **In Progress...** |
+| 1. | [Hello World](PSoC-6-Exploration/1_PSoC6_HelloWorld) | Completed |
+| 2. | [GPIO Interrupt](PSoC-6-Exploration/2_PSoC6_GPIOInterrupt) | Completed |
+| 3. | [Button UART](PSoC-6-Exploration/3_PSoC6_ButtonUART) | Completed |
 | 4. | FreeRTOS - Queues | **In Progress...** |
 
 ## License

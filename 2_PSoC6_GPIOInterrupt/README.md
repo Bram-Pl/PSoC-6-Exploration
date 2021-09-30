@@ -1,4 +1,4 @@
-# Exercise 1 - GPIO Interrupt
+# Exercise 2 - GPIO Interrupt
 Exercises performed for the course **'IoT'** given at Hasselt University at the faculty of Engineering Technology.
 ### Goal
 Using the template called: "GPIO Interrupt". The template checks the interrupt status. When the button is pressed the delay between the toggling of the LED is switched between long or short. I added some ```printf()``` functions to better understand what is going on.
