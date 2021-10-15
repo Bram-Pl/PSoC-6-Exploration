@@ -22,6 +22,9 @@ FreeRTOS is currently developed by [AWS](https://aws.amazon.com/) or better know
 | 2. | [GPIO Interrupt](https://github.com/Bram-Pl/PSoC-6-Exploration/tree/main/2_PSoC6_GPIOInterrupt) | Completed |
 | 3. | [Button UART](https://github.com/Bram-Pl/PSoC-6-Exploration/tree/main/3_PSoC6_ButtonUART) | Completed |
 | 4. | [FreeRTOS: Capsense](https://github.com/Bram-Pl/PSoC-6-Exploration/tree/main/4_PSoC6_FreeRTOS) | Completed |
+| 5. | [FreeRTOS: Capsense](https://github.com/Bram-Pl/PSoC-6-Exploration/tree/main/5_PSoC6_HerokuServer) | In Progress... |
+| 6. | [FreeRTOS: Capsense](https://github.com/Bram-Pl/PSoC-6-Exploration/tree/main/6_PSoC6_HTTP) | In Progress... |
+| 7. | [FreeRTOS: Capsense](https://github.com/Bram-Pl/PSoC-6-Exploration/tree/main/7_PSoC6_MQTTIoTSystem) | Completed |
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
